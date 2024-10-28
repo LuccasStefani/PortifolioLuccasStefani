@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Titulo 1",
-    des: "Descrição",
+    title: "Innovare Decor",
+    des: "Projeto feito com o tato, mais ele do que eu.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://innovaredecor.com",
   },
   {
     id: 2,
@@ -173,8 +173,8 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Designer de Interface UX/UI",
+    desc: "Usando o melhor da tecnologia pra desenvolver Interfaces que agrradam o usuario",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
@@ -216,6 +216,14 @@ export const socialMedia = [
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/dribbble.svg",
+  },
+  {
+    id: 5,
+    img: "/instagram.svg",
+  },
+  {
+    id: 6,
+    img: "/whastapp.svg",
   },
 ];
