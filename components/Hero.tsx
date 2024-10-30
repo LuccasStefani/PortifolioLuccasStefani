@@ -52,8 +52,8 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transformando conceitos de usuario em experiências perfeitas"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            words="Transformando conceitos em Êxperiencias de usuário perfeitas"
+            className="text-center text-[40px] md:text-5xl lg:text-5xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">

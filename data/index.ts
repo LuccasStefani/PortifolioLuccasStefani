@@ -75,13 +75,14 @@ export const projects = [
     title: "Innovare Decor",
     des: "Projeto feito com o tato, mais ele do que eu.",
     img: "/p1.svg",
+    className: "md:col-span-6",
     iconLists: ["/re.svg", "/tail.svg"],
     link: "https://innovaredecor.com",
   },
   {
     id: 2,
     title: "Lading Page Adivogado",
-    des: "Esse projeto foi feito baseado nesse portifólio, meu cliente gostou tanto desse layout que quis algo assim. Minimalista e Moderno",
+    des: "Entregando algo que o cliente buscava, Minimalista e Moderno",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "/",
@@ -100,7 +101,7 @@ export const projects = [
     des: "Recriando o site da Apple usando UX, e combiando GSAP e Three.js.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://cloneaplle.vercel.app",
   },
 ];
 
@@ -180,22 +181,22 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Title aqui",
+    desc: "descrição aqui",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Title aqui",
+    desc: "descrição aqui",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Title aqui",
+    desc: "descrição aqui.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

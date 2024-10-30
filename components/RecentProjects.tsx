@@ -19,10 +19,9 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="https://innovaredecor.com"
-              href="https://innovaredecor.com"
-            >
-              <a href="https://innovaredecor.com" target="_blank"><div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+              title={item.title} href={item.link}>
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
+                <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
@@ -34,7 +33,8 @@ const RecentProjects = () => {
                   alt="cover"
                   className="z-10 absolute bottom-0"
                 />
-              </div></a>
+              </div>
+              
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {item.title}
@@ -72,6 +72,7 @@ const RecentProjects = () => {
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
+              </a> 
             </PinContainer>
           </div>
         ))}
