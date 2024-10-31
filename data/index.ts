@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Quer começar um projeto. Vamos Trabalhar Juntos ?",
+    title: "Quer começar um projeto? Podemos trabalhar juntos!",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -174,30 +174,30 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Designer de Interface UX/UI",
-    desc: "Usando o melhor da tecnologia pra desenvolver Interfaces que agrradam o usuario",
-    className: "md:col-span-2",
+    title: "Engenheiro Front-end",
+    desc: "Auxiliei no desenvolvimento de uma plataforma web utilizando React.js, potencializando a interatividade.",
+    className: "md:col-span-1",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Title aqui",
-    desc: "descrição aqui",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Mobile App Dev - Kotlin",
+    desc: "Aplicativo móvel projetado e desenvolvido para plataformas iOS e Android usando React Native.",
+    className: "md:col-span-1", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Title aqui",
-    desc: "descrição aqui",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance App Dev Projetos",
+    desc: "Liderei o desenvolvimento de um aplicativo mobile para um cliente, desde o conceito inicial até a implantação nas lojas de aplicativos.",
+    className: "md:col-span-1", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Title aqui",
-    desc: "descrição aqui.",
-    className: "md:col-span-2",
+    title: "Lead Frontend Developer",
+    desc: "Desenvolvimento e manutenção de recursos voltados ao usuário usando tecnologias front-end modernas.",
+    className: "md:col-span-1",
     thumbnail: "/exp4.svg",
   },
 ];

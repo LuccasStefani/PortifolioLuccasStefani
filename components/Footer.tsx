@@ -17,7 +17,7 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Pronto pra levar <span className="text-purple">sua presença digital pro próximo</span> nível?
+          Pronto pra levar <span className="text-purple">sua presença digital para o próximo</span> nível?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Entre em contato comigo hoje mesmo e vamos discutir como posso ajudar você a atigir seus objetivos.
