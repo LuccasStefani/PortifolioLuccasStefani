@@ -53,8 +53,7 @@ export function TimelineDemo() {
             integrate lorem ipsum.
           </p>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Lorem ipsum is for people who are too lazy to write copy. But we are
-            not. Here are some more example of beautiful designs I built.
+            Luccas Stefani
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
