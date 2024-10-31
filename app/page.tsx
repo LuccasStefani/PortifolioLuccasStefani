@@ -10,6 +10,8 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import { Timeline } from "@/components/ui/Timeline";
+import { TimelineDemo } from "@/components/TimelineDemo";
 
 const Home = () => {
   return (
@@ -21,6 +23,7 @@ const Home = () => {
         <RecentProjects />
         <Clients />
         <Experience />
+        <TimelineDemo />
         <Approach />
         <Footer />
       </div>
